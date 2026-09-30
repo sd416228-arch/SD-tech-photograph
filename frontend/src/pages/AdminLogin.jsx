@@ -6,7 +6,7 @@ function AdminLogin({ onLogin, onNavigate }) {
   const [credentials, setCredentials] = useState({ email: '', password: '' })
   const [message, setMessage] = useState('')
   const [isSubmitting, setIsSubmitting] = useState(false)
-  const [businessName, setBusinessName] = useState('PicturesSquad Studio Nepal')
+  const [businessName, setBusinessName] = useState('SD Tech Photograph')
 
   useEffect(() => {
     getPublicSettings()
@@ -55,7 +55,7 @@ function AdminLogin({ onLogin, onNavigate }) {
       <div className="admin-auth-image" aria-hidden="true" />
       <div className="admin-auth-panel">
         <button className="admin-back-link" type="button" onClick={() => onNavigate('/')}>← Back to studio</button>
-        <div className="admin-brand"><span className="brand-mark">PS</span><span><strong>{businessName}</strong><small>PHOTOGRAPHY STUDIO</small></span></div>
+        <div className="admin-brand"><span className="brand-mark">SD</span><span><strong>{businessName}</strong><small>PHOTOGRAPHY STUDIO</small></span></div>
         <div className="admin-auth-heading">
           <p className="eyebrow warm">Private workspace</p>
           <h1>Owner<br /><em>Dashboard</em></h1>

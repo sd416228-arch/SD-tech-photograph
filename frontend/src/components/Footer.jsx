@@ -20,8 +20,8 @@ function SocialIcon({ type }) {
 }
 
 function Footer({ settings }) {
-  const businessName = settings?.business_name || 'PicturesSquad Studio Nepal'
-  const email = settings?.email || 'hello@picturesquad.com'
+  const businessName = settings?.business_name || 'SD Tech Photograph'
+  const email = settings?.email || 'hello@sdtechphotograph.com'
   const socialLinks = [
     { key: 'instagram', label: 'Instagram', url: settings?.instagram_url },
     { key: 'facebook', label: 'Facebook', url: settings?.facebook_url },
@@ -32,7 +32,7 @@ function Footer({ settings }) {
     <footer className="site-footer">
       <div className="footer-top page-width">
         <a className="brand footer-brand" href="#top">
-          <span className="brand-mark" aria-hidden="true">PS</span>
+          <span className="brand-mark" aria-hidden="true">SD</span>
           <span><strong>{businessName}</strong><small>PHOTOGRAPHY STUDIO</small></span>
         </a>
         <div className="footer-column"><strong>Explore</strong><a href="#top">Home</a><a href="#portfolio">Portfolio</a><a href="#services">Services</a><a href="#about">About</a></div>

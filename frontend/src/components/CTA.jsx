@@ -42,7 +42,7 @@ function formatPreferredDate(dateStr) {
 }
 
 function buildWhatsAppMessage({ name, phone, service, preferred_date, message, businessName }) {
-  const studioName = businessName || 'PicturesSquad Studio'
+  const studioName = businessName || 'SD Tech Photograph'
   const formattedDate = formatPreferredDate(preferred_date)
 
   const lines = [
@@ -174,7 +174,6 @@ function CTA({ settings }) {
 
   return (
     <section className="cta-section page-width" id="contact">
-      <div className="cta-icon" aria-hidden="true">✦</div>
       <div>
         <p className="eyebrow warm">Your story starts here</p>
         <h2>Let&apos;s make something<br /><em>you&apos;ll keep forever.</em></h2>

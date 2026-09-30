@@ -1,5 +1,5 @@
 function About({ settings }) {
-  const businessName = settings?.business_name || 'PicturesSquad Studio Nepal'
+  const businessName = settings?.business_name || 'SD Tech Photograph'
   const address = settings?.address || 'Kathmandu, Pokhara and wherever your story takes you'
   return (
     <section className="about-section" id="about">

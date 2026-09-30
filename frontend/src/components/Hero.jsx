@@ -55,7 +55,7 @@ function Hero({ settings }) {
   return (
     <section className="canon-hero-section" id="top">
       {/* Top Navigation */}
-      <Navbar businessName={settings?.business_name || 'PicturesSquad'} />
+      <Navbar businessName={settings?.business_name || 'SD Tech Photograph'} />
 
       <div className="canon-hero-main page-container">
         {/* Left Vertical Social Sidebar */}
@@ -164,7 +164,7 @@ function Hero({ settings }) {
               />
             </div>
             <div className="showreel-caption">
-              <strong>PicturesSquad Showreel & Highlights</strong>
+              <strong>SD Tech Photograph Showreel & Highlights</strong>
               <span>Capturing authentic life moments</span>
             </div>
           </div>

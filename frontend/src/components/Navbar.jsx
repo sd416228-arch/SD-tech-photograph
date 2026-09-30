@@ -1,6 +1,6 @@
 import { useState } from 'react'
 
-function Navbar({ businessName = 'PicturesSquad Studio' }) {
+function Navbar({ businessName = 'SD Tech Photograph' }) {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false)
 
   const toggleMobileMenu = () => {
@@ -15,7 +15,7 @@ function Navbar({ businessName = 'PicturesSquad Studio' }) {
     <header className="site-header">
       <div className="header-container">
         <a className="brand" href="#top" aria-label={`${businessName} home`}>
-          <span className="brand-logo-text">{businessName || 'PicturesSquad'}</span>
+          <span className="brand-logo-text">{businessName || 'SD Tech Photograph'}</span>
         </a>
 
         <nav className={`desktop-nav ${mobileMenuOpen ? 'mobile-open' : ''}`} aria-label="Primary navigation">

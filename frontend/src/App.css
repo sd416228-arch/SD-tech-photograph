@@ -483,7 +483,7 @@ h2 { font-size: clamp(34px, 4vw, 44px); line-height: 1.1; }
 .about-copy .solid-button { margin-top: 14px; align-self: flex-start; background: #ffffff; color: #161514; }
 .about-copy .solid-button:hover { background: var(--warm); color: #fff; }
 
-.cta-section { min-height: 260px; display: grid; grid-template-columns: 90px 1.2fr 1fr; align-items: center; gap: 30px; padding: 80px 0; }
+.cta-section { min-height: 260px; display: grid; grid-template-columns: 1.2fr 1fr; align-items: center; gap: 30px; padding: 80px 0; }
 .cta-icon { width: 64px; height: 64px; border: 1.5px solid var(--ink); border-radius: 50%; display: grid; place-items: center; font-size: 24px; }
 .cta-section h2 { font-size: 36px; }
 .cta-note { color: var(--muted); font-size: 13px; line-height: 1.65; max-width: 300px; margin: 16px 0 0; }

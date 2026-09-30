@@ -12,7 +12,7 @@ const navigationItems = [
 ]
 
 function AdminSidebar({ onLogout, isLoggingOut, isOpen, onClose, onNavigate, currentPath = '/admin' }) {
-  const [businessName, setBusinessName] = useState('PicturesSquad Studio Nepal')
+  const [businessName, setBusinessName] = useState('SD Tech Photograph')
 
   useEffect(() => {
     getPublicSettings()
@@ -26,7 +26,7 @@ function AdminSidebar({ onLogout, isLoggingOut, isOpen, onClose, onNavigate, cur
     <aside className={`admin-sidebar ${isOpen ? 'is-open' : ''}`}>
       <div className="admin-sidebar-top">
         <a className="brand admin-sidebar-brand" href="/admin" aria-label={`${businessName} dashboard`}>
-          <span className="brand-mark">PS</span>
+          <span className="brand-mark">SD</span>
           <span><strong>{businessName}</strong><small>PHOTOGRAPHY STUDIO</small></span>
         </a>
         <p className="admin-sidebar-label">Owner Dashboard</p>
