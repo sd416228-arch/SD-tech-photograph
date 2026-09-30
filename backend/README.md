@@ -1,6 +1,6 @@
-# PicturesSquad Studio Nepal Backend
+# SD Tech Photograph Backend
 
-Express and PostgreSQL API for the PicturesSquad Studio Nepal website and future owner dashboard.
+Express and PostgreSQL API for the SD Tech Photograph website and future owner dashboard.
 
 ## Local setup
 

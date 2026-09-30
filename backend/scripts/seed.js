@@ -18,7 +18,7 @@ async function seed() {
     `INSERT INTO users (name, email, password_hash, role)
      VALUES ($1, LOWER($2), $3, $4)
     ON CONFLICT ((LOWER(email))) DO UPDATE SET name = EXCLUDED.name, password_hash = EXCLUDED.password_hash, role = EXCLUDED.role`,
-    [process.env.ADMIN_NAME || 'PicturesSquad Owner', process.env.ADMIN_EMAIL, passwordHash, process.env.ADMIN_ROLE || 'OWNER'],
+    [process.env.ADMIN_NAME || 'SD Tech Photograph Owner', process.env.ADMIN_EMAIL, passwordHash, process.env.ADMIN_ROLE || 'OWNER'],
   );
 
   console.log('Database schema and development data seeded successfully.');

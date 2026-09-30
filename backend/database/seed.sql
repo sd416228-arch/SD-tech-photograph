@@ -39,5 +39,5 @@ SELECT 'Together at home', 'https://images.unsplash.com/photo-1511895426328-dc87
 WHERE NOT EXISTS (SELECT 1 FROM gallery WHERE title = 'Together at home');
 
 INSERT INTO business_settings (id, business_name, email, address, about_text)
-VALUES (1, 'PicturesSquad Studio Nepal', 'hello@picturesquad.com', 'Kathmandu and Pokhara, Nepal', 'Gentle, honest photography for newborns, babies, families and the milestones that matter.')
+VALUES (1, 'SD Tech Photograph', 'hello@sdtechphotograph.com', 'Kathmandu and Pokhara, Nepal', 'Gentle, honest photography for newborns, babies, families and the milestones that matter.')
 ON CONFLICT (id) DO NOTHING;

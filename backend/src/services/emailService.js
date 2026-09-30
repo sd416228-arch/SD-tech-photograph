@@ -23,7 +23,7 @@ async function sendInquiryNotification(inquiry) {
   await transporter.sendMail({
     from: process.env.EMAIL_USER,
     to: process.env.OWNER_EMAIL,
-    subject: `New PicturesSquad inquiry from ${inquiry.name}`,
+    subject: `New SD Tech Photograph inquiry from ${inquiry.name}`,
     text: [
       `Name: ${inquiry.name}`,
       `Email: ${inquiry.email}`,
