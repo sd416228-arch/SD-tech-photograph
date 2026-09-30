@@ -24,7 +24,7 @@ async function login(req, res) {
   }
 
   const token = createToken(user);
-  res.cookie('token', token, { httpOnly: true, sameSite: 'lax', secure: process.env.NODE_ENV === 'production', maxAge: 24 * 60 * 60 * 1000 });
+  res.cookie('token', token, { httpOnly: true, sameSite: 'none', secure: process.env.NODE_ENV === 'production', maxAge: 24 * 60 * 60 * 1000 });
   return res.json({ success: true, data: { user: publicUser(user), token } });
 }
 
